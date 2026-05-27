@@ -1,4 +1,4 @@
-package xyz.malefic.staticsite.components.layouts
+package xyz.malefic.kanman.components.layouts
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -38,18 +38,18 @@ import org.jetbrains.compose.web.css.vh
 import org.jetbrains.compose.web.css.width
 import org.jetbrains.compose.web.dom.Div
 import org.jetbrains.compose.web.dom.Text
+import xyz.malefic.kanman.styles.ActiveNavItemStyle
+import xyz.malefic.kanman.styles.DropdownButtonHoverStyle
+import xyz.malefic.kanman.styles.DropdownContentStyle
+import xyz.malefic.kanman.styles.DropdownItemHoverStyle
+import xyz.malefic.kanman.styles.DropdownItemStyle
+import xyz.malefic.kanman.styles.DropdownStyle
+import xyz.malefic.kanman.styles.NavBarStyle
+import xyz.malefic.kanman.styles.NavItemHoverStyle
+import xyz.malefic.kanman.styles.isCurrentPage
+import xyz.malefic.kanman.util.Pages
 import xyz.malefic.kutint.parseHex
 import xyz.malefic.kutint.rgba
-import xyz.malefic.staticsite.styles.ActiveNavItemStyle
-import xyz.malefic.staticsite.styles.DropdownButtonHoverStyle
-import xyz.malefic.staticsite.styles.DropdownContentStyle
-import xyz.malefic.staticsite.styles.DropdownItemHoverStyle
-import xyz.malefic.staticsite.styles.DropdownItemStyle
-import xyz.malefic.staticsite.styles.DropdownStyle
-import xyz.malefic.staticsite.styles.NavBarStyle
-import xyz.malefic.staticsite.styles.NavItemHoverStyle
-import xyz.malefic.staticsite.styles.isCurrentPage
-import xyz.malefic.staticsite.util.Pages
 
 @Layout
 @Composable

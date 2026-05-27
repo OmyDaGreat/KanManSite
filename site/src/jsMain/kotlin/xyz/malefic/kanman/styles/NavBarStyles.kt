@@ -1,4 +1,4 @@
-package xyz.malefic.staticsite.styles
+package xyz.malefic.kanman.styles
 
 import com.varabyte.kobweb.compose.css.Background
 import com.varabyte.kobweb.compose.css.BackgroundImage
@@ -42,9 +42,9 @@ import org.jetbrains.compose.web.css.percent
 import org.jetbrains.compose.web.css.px
 import org.jetbrains.compose.web.css.s
 import org.jetbrains.compose.web.css.textDecoration
+import xyz.malefic.kanman.util.Pages
 import xyz.malefic.kutint.parseHex
 import xyz.malefic.kutint.rgba
-import xyz.malefic.staticsite.util.Pages
 
 val NavBarStyle =
     CssStyle.base {

@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "staticsite"
+rootProject.name = "KanManSite"
 
 include(":site")
