@@ -15,7 +15,7 @@ import org.jetbrains.compose.web.dom.Text
 fun AboutPage() {
     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Span {
-            Text("THIS TEMPLATE WAS CREATED BY ")
+            Text("THIS SITE WAS CREATED BY ")
             Link("https://github.com/OmyDaGreat", "MALEFIC")
             Text("!")
         }
